@@ -1,0 +1,8 @@
+services:
+  web:
+    build: .
+    container_name: fuzzy-bay
+    ports:
+      - "8080:80"
+    environment:
+      - FLAG=TCTT2026{L3t5_S33_Wh3r3_Th3_R04d_T4k35_U5}
